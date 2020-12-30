@@ -9,8 +9,7 @@
 	</title>
 	<style>
 body {
-  background-image: url('./assets/desktopImage.png');
-  width:100vw;
+  background-image: url('./assets/desktop_1920x1080.png');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -18,15 +17,45 @@ body {
 }
 @media only screen and (max-width: 600px) {
   body {
-    background-image: url('./assets/mobileImage.png');
+   background-image: url('./assets/mobile_414x736.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: contain;
-  background-blend: lighten;
+  background-position: center;
+  }
+}@media only screen 
+  and (min-device-width: 540px) 
+  and (max-device-width: 720px)  {
+  body {
+   background-image: url('./assets/desktop_1920x1080.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+  body {
+   background-image: url('./assets/desktop_1920x1080.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+  }
+}
+@media only screen and (max-width: 320px) {
+  body {
+    background-image: url('./assets/mobile_320x568.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
   }
 }
 </style>
 </head>
 <body>
+dfsd
 </body>
 </html>
